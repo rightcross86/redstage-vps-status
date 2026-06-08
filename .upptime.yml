@@ -1,0 +1,28 @@
+owner: rightcross86
+repo: redstage-vps-status
+user-agent: redstage-vps-upptime
+sites:
+  - name: API サーバー
+    url: https://vps.happy-life-design.net/health
+    expectedStatusCodes:
+      - 200
+  - name: フロントエンド
+    url: https://vps.happy-life-design.net
+    expectedStatusCodes:
+      - 200
+
+status-website:
+  # cname: status.redstage-vps.com  # ドメイン取得後に有効化
+  name: RedStage VPS ステータス
+  logoUrl: ""
+  introTitle: "RedStage VPS サービスステータス"
+  introMessage: "各サービスの稼働状況をリアルタイムで確認できます。稼働率保証はありませんが、障害状況は即時公開します。"
+  navbar:
+    - title: RedStage VPS
+      href: https://vps.happy-life-design.net
+    - title: サポート
+      href: https://vps.happy-life-design.net/dashboard/support
+
+notifications:
+  - type: discord
+    webhook: $DISCORD_WEBHOOK_URL

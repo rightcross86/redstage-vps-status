@@ -1,0 +1,32 @@
+name: Upptime CI
+on:
+  push:
+    branches:
+      - master
+  repository_dispatch:
+    types: [upptime]
+  schedule:
+    - cron: "*/5 * * * *"  # every 5 minutes
+  workflow_dispatch:
+
+jobs:
+  summary:
+    name: Check status
+    runs-on: ubuntu-latest
+    steps:
+      - name: Upptime
+        uses: upptime/uptime-monitor@v2
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+
+  update-graph:
+    name: Update graph and badge
+    runs-on: ubuntu-latest
+    needs: summary
+    steps:
+      - name: Upptime
+        uses: upptime/uptime-monitor@v2
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FORCE_UPDATE: true
