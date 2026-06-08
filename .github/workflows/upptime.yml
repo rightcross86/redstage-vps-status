@@ -16,13 +16,13 @@ permissions:
   id-token: write
 
 jobs:
-  summary:
-    name: Check status
+  monitor:
+    name: Check and update
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Upptime
+      - uses: actions/checkout@v4
+
+      - name: Check status
         uses: upptime/uptime-monitor@master
         with:
           command: update
@@ -31,14 +31,10 @@ jobs:
           GH_PAT: ${{ secrets.GITHUB_TOKEN }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
 
-  update-graph:
-    name: Update graph and badge
-    runs-on: ubuntu-latest
-    needs: summary
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Upptime
+      - name: Pull latest commits
+        run: git pull --rebase origin master
+
+      - name: Update graphs
         uses: upptime/uptime-monitor@master
         with:
           command: graphs
