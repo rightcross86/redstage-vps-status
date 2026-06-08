@@ -23,7 +23,10 @@ jobs:
       - name: Upptime
         uses: upptime/uptime-monitor@master
         with:
+          command: update
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_PAT: ${{ secrets.GITHUB_TOKEN }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
 
   update-graph:
@@ -34,5 +37,7 @@ jobs:
       - name: Upptime
         uses: upptime/uptime-monitor@master
         with:
+          command: graphs
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          FORCE_UPDATE: true
+          GH_PAT: ${{ secrets.GITHUB_TOKEN }}
