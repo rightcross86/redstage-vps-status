@@ -1,0 +1,38 @@
+[
+  {
+    "name": "API サーバー",
+    "url": "https://vps.happy-life-design.net/health",
+    "icon": "https://icons.duckduckgo.com/ip3/vps.happy-life-design.net.ico",
+    "slug": "api",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 639,
+    "timeDay": 639,
+    "timeWeek": 639,
+    "timeMonth": 639,
+    "timeYear": 639,
+    "dailyMinutesDown": {}
+  },
+  {
+    "name": "フロントエンド",
+    "url": "https://vps.happy-life-design.net",
+    "icon": "https://icons.duckduckgo.com/ip3/vps.happy-life-design.net.ico",
+    "slug": "フロントエンド",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 639,
+    "timeDay": 639,
+    "timeWeek": 639,
+    "timeMonth": 639,
+    "timeYear": 639,
+    "dailyMinutesDown": {}
+  }
+]
