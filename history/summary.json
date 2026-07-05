@@ -4,19 +4,20 @@
     "url": "https://vps.happy-life-design.net/health",
     "icon": "https://icons.duckduckgo.com/ip3/vps.happy-life-design.net.ico",
     "slug": "api",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 548,
-    "timeDay": 457,
-    "timeWeek": 457,
-    "timeMonth": 548,
-    "timeYear": 548,
+    "status": "up",
+    "uptime": "99.73%",
+    "uptimeDay": "92.72%",
+    "uptimeWeek": "98.96%",
+    "uptimeMonth": "99.73%",
+    "uptimeYear": "99.73%",
+    "time": 499,
+    "timeDay": 429,
+    "timeWeek": 429,
+    "timeMonth": 499,
+    "timeYear": 499,
     "dailyMinutesDown": {
-      "2026-07-04": 0
+      "2026-07-05": 79,
+      "2026-07-04": 26
     }
   },
   {
@@ -24,17 +25,20 @@
     "url": "https://vps.happy-life-design.net",
     "icon": "https://icons.duckduckgo.com/ip3/vps.happy-life-design.net.ico",
     "slug": "フロントエンド",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 416,
-    "timeDay": 192,
-    "timeWeek": 192,
-    "timeMonth": 416,
-    "timeYear": 416,
-    "dailyMinutesDown": {}
+    "status": "up",
+    "uptime": "99.73%",
+    "uptimeDay": "92.73%",
+    "uptimeWeek": "98.96%",
+    "uptimeMonth": "99.73%",
+    "uptimeYear": "99.73%",
+    "time": 347,
+    "timeDay": 201,
+    "timeWeek": 201,
+    "timeMonth": 347,
+    "timeYear": 347,
+    "dailyMinutesDown": {
+      "2026-07-05": 79,
+      "2026-07-04": 25
+    }
   }
 ]
