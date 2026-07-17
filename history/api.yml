@@ -1,7 +1,7 @@
 url: https://vps.happy-life-design.net/health
-status: up
-code: 200
-responseTime: 429
-lastUpdated: 2026-07-06T23:50:54.578Z
+status: down
+code: 502
+responseTime: 356
+lastUpdated: 2026-07-17T06:01:39.942Z
 startTime: 2026-06-08T01:29:58.000Z
 generator: Upptime <https://github.com/upptime/upptime>
