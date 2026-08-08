@@ -5,11 +5,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/vps.happy-life-design.net.ico",
     "slug": "api",
     "status": "down",
-    "uptime": "99.44%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.24%",
-    "uptimeYear": "99.44%",
+    "uptime": "98.96%",
+    "uptimeDay": "70.21%",
+    "uptimeWeek": "95.74%",
+    "uptimeMonth": "98.26%",
+    "uptimeYear": "98.96%",
     "time": 441,
     "timeDay": 43,
     "timeWeek": 43,
@@ -21,7 +21,7 @@
       "2026-07-06": 61,
       "2026-07-17": 141,
       "2026-07-30": 193,
-      "2026-08-08": 0
+      "2026-08-08": 429
     }
   },
   {
@@ -29,22 +29,23 @@
     "url": "https://vps.happy-life-design.net",
     "icon": "https://icons.duckduckgo.com/ip3/vps.happy-life-design.net.ico",
     "slug": "フロントエンド",
-    "status": "down",
-    "uptime": "99.60%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.56%",
-    "uptimeYear": "99.60%",
-    "time": 348,
-    "timeDay": 47,
-    "timeWeek": 47,
-    "timeMonth": 275,
-    "timeYear": 348,
+    "status": "up",
+    "uptime": "99.12%",
+    "uptimeDay": "70.23%",
+    "uptimeWeek": "95.75%",
+    "uptimeMonth": "98.58%",
+    "uptimeYear": "99.12%",
+    "time": 3634,
+    "timeDay": 14985,
+    "timeWeek": 14985,
+    "timeMonth": 7687,
+    "timeYear": 3634,
     "dailyMinutesDown": {
       "2026-07-05": 79,
       "2026-07-04": 25,
       "2026-07-06": 61,
-      "2026-07-30": 193
+      "2026-07-30": 193,
+      "2026-08-08": 429
     }
   }
 ]
