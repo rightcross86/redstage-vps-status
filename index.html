@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ハレノヒのれん サービスステータス</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", sans-serif; background:#f9fafb; color:#111827; margin:0; padding:2rem 1rem; }
+  main { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 1.4rem; margin-bottom: 0.25rem; }
+  .banner { background:#16a34a; color:white; padding:1rem 1.25rem; border-radius:8px; font-weight:600; margin: 1rem 0 1.5rem; }
+  table { width:100%; border-collapse: collapse; background:white; border-radius:8px; overflow:hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+  th, td { text-align:left; padding: 0.75rem 1rem; border-bottom: 1px solid #e5e7eb; font-size:0.9rem; }
+  th { background:#f3f4f6; font-weight:600; }
+  tr:last-child td { border-bottom: none; }
+  footer { margin-top: 1.5rem; font-size: 0.75rem; color:#6b7280; }
+</style>
+</head>
+<body>
+<main>
+  <h1>ハレノヒのれん サービスステータス</h1>
+  <p style="color:#6b7280; font-size:0.9rem;">各サービスの稼働状況を5分おきに確認し、このページに反映しています。</p>
+  <div class="banner">全システム稼働中</div>
+  <table>
+    <thead><tr><th>URL</th><th>状態</th><th>応答時間</th><th>最終確認</th></tr></thead>
+    <tbody>
+        <tr>
+          <td>https://vps.happy-life-design.net/health</td>
+          <td><span style="color:#16a34a; font-weight:600;">稼働中</span></td>
+          <td>512 ms</td>
+          <td>2026-08-27 10:38:10.038000+00:00</td>
+        </tr>
+        <tr>
+          <td>https://vps.happy-life-design.net</td>
+          <td><span style="color:#16a34a; font-weight:600;">稼働中</span></td>
+          <td>425 ms</td>
+          <td>2026-08-27 10:38:13.534000+00:00</td>
+        </tr></tbody>
+  </table>
+  <footer>最終生成: 2026-09-10 05:47 UTC / <a href="https://github.com/rightcross86/redstage-vps-status">監視設定・履歴</a></footer>
+</main>
+</body>
+</html>
