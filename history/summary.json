@@ -4,17 +4,17 @@
     "url": "https://harenohi-noren.happy-life-design.net/health",
     "icon": "https://icons.duckduckgo.com/ip3/harenohi-noren.happy-life-design.net.ico",
     "slug": "api",
-    "status": "down",
-    "uptime": "98.87%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "98.66%",
-    "uptimeYear": "98.87%",
-    "time": 581,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 293,
-    "timeYear": 581,
+    "status": "up",
+    "uptime": "98.62%",
+    "uptimeDay": "75.21%",
+    "uptimeWeek": "96.46%",
+    "uptimeMonth": "97.84%",
+    "uptimeYear": "98.62%",
+    "time": 549,
+    "timeDay": 311,
+    "timeWeek": 311,
+    "timeMonth": 302,
+    "timeYear": 549,
     "dailyMinutesDown": {
       "2026-07-05": 79,
       "2026-07-04": 26,
@@ -23,7 +23,7 @@
       "2026-07-30": 193,
       "2026-08-08": 480,
       "2026-08-27": 588,
-      "2026-09-12": 0
+      "2026-09-12": 357
     }
   },
   {
@@ -31,17 +31,17 @@
     "url": "https://harenohi-noren.happy-life-design.net",
     "icon": "https://icons.duckduckgo.com/ip3/harenohi-noren.happy-life-design.net.ico",
     "slug": "フロントエンド",
-    "status": "down",
-    "uptime": "99.01%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "98.66%",
-    "uptimeYear": "99.01%",
-    "time": 3018,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 245,
-    "timeYear": 3018,
+    "status": "up",
+    "uptime": "98.76%",
+    "uptimeDay": "75.23%",
+    "uptimeWeek": "96.46%",
+    "uptimeMonth": "97.84%",
+    "uptimeYear": "98.76%",
+    "time": 2573,
+    "timeDay": 128,
+    "timeWeek": 128,
+    "timeMonth": 186,
+    "timeYear": 2573,
     "dailyMinutesDown": {
       "2026-07-05": 79,
       "2026-07-04": 25,
@@ -49,7 +49,7 @@
       "2026-07-30": 193,
       "2026-08-08": 429,
       "2026-08-27": 588,
-      "2026-09-12": 0
+      "2026-09-12": 357
     }
   }
 ]
