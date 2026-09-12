@@ -1,19 +1,19 @@
 [
   {
     "name": "API サーバー",
-    "url": "https://vps.happy-life-design.net/health",
-    "icon": "https://icons.duckduckgo.com/ip3/vps.happy-life-design.net.ico",
+    "url": "https://harenohi-noren.happy-life-design.net/health",
+    "icon": "https://icons.duckduckgo.com/ip3/harenohi-noren.happy-life-design.net.ico",
     "slug": "api",
-    "status": "up",
-    "uptime": "98.65%",
-    "uptimeDay": "59.18%",
-    "uptimeWeek": "94.17%",
-    "uptimeMonth": "97.12%",
-    "uptimeYear": "98.65%",
+    "status": "down",
+    "uptime": "98.87%",
+    "uptimeDay": "99.98%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "98.66%",
+    "uptimeYear": "98.87%",
     "time": 581,
-    "timeDay": 293,
-    "timeWeek": 293,
-    "timeMonth": 691,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 293,
     "timeYear": 581,
     "dailyMinutesDown": {
       "2026-07-05": 79,
@@ -22,24 +22,25 @@
       "2026-07-17": 141,
       "2026-07-30": 193,
       "2026-08-08": 480,
-      "2026-08-27": 588
+      "2026-08-27": 588,
+      "2026-09-12": 0
     }
   },
   {
     "name": "フロントエンド",
-    "url": "https://vps.happy-life-design.net",
-    "icon": "https://icons.duckduckgo.com/ip3/vps.happy-life-design.net.ico",
+    "url": "https://harenohi-noren.happy-life-design.net",
+    "icon": "https://icons.duckduckgo.com/ip3/harenohi-noren.happy-life-design.net.ico",
     "slug": "フロントエンド",
-    "status": "up",
-    "uptime": "98.81%",
-    "uptimeDay": "59.19%",
-    "uptimeWeek": "94.17%",
-    "uptimeMonth": "97.24%",
-    "uptimeYear": "98.81%",
+    "status": "down",
+    "uptime": "99.01%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "98.66%",
+    "uptimeYear": "99.01%",
     "time": 3018,
-    "timeDay": 245,
-    "timeWeek": 245,
-    "timeMonth": 5206,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 245,
     "timeYear": 3018,
     "dailyMinutesDown": {
       "2026-07-05": 79,
@@ -47,7 +48,8 @@
       "2026-07-06": 61,
       "2026-07-30": 193,
       "2026-08-08": 429,
-      "2026-08-27": 588
+      "2026-08-27": 588,
+      "2026-09-12": 0
     }
   }
 ]
